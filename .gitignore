@@ -3,3 +3,67 @@ dist/
 __pycache__/ 
 *.pyc 
 inscricoes.db 
+
+# Segredos e configuracoes locais de ambiente
+.env
+.env.*
+!.env.example
+
+# Ambientes virtuais Python
+.venv/
+venv/
+env/
+
+# Bancos locais e backups de PostgreSQL
+*.db
+*.sqlite
+*.sqlite3
+*.pgdump
+*.sql.gz
+
+# Logs
+*.log
+logs/
+
+# Caches Python e de ferramentas de teste/analise
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Arquivos temporarios e locais de editores
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Chaves privadas, certificados e pacotes de credenciais
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Artefatos de empacotamento Python
+*.egg-info/
+.eggs/
+wheels/
+
+# Arquivos static coletados para producao (nao ignora static/ de origem)
+staticfiles/
+
+# Conteudo dinamico/privado; media/ publica permanece versionavel
+media/uploads/
+media/private/
+media/tmp/
